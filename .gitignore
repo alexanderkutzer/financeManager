@@ -1,0 +1,80 @@
+# Betriebssystem-spezifische Dateien
+.DS_Store
+Thumbs.db
+
+# Node.js-Projekte
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python-Projekte
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Java/Gradle-Projekte
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+.gradle/
+build/
+
+# IDE-spezifische Dateien
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs und temporäre Dateien
+logs/
+*.log
+tmp/
+*.tmp
+
+# Git-spezifische Dateien
+.git/
+*.bak
+
+# Datenbankdateien
+*.sqlite3
+*.db
+
+# Betriebssystemspezifische Sicherungsdateien
+*.bak
+*.swp
+*.swo
+
+# Bild- und Medienformate (falls nicht im Repo gewünscht)
+*.psd
+*.ai
+*.eps
+*.tiff
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
